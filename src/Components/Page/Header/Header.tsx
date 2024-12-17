@@ -1,3 +1,4 @@
+import { BsArrowLeft } from 'react-icons/bs';
 import './Header.css';
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
 			<div className=" d-lg-none">
 				<div className="d-flex align-items-center justify-content-between px-4 py-3">
 					<div>
-						<i className="fa-solid fa-arrow-left fs-4 text-white"></i>
+						<BsArrowLeft color='white' className="fa-solid fa-arrow-left fs-4 text-white" />
 					</div>
 					<div>
 						<button className="btn text-white border border-white">Join Group</button>
